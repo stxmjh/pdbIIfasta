@@ -4,7 +4,7 @@
 *pdbIIfasta.py*
 ***************
 
-i![alt tag](https://raw.githubusercontent.com/stxmjh/pdbIIfasta/pdbIIfastasnake.png)
+![alt tag](https://raw.githubusercontent.com/stxmjh/pdbIIfasta/pdbIIfastasnake.png)
 
 Introduction
 =============
