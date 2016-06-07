@@ -23,16 +23,19 @@ See in the example below
 
 Example
 =======
-# # python3 4k3b.pdb fasta
+# # python3 test_pdbIIfasta.py 4k3b.pdb fasta
 
 Explanation
 ===========
-- The # indicates the start of the command prompt. You don't need to input this. Just everything that comes after;)
-- The first bit calls the python3 interpreter. You will need python3 installed on your computer. 
-- The second piece of the command (or 'argument' in computer lingo') is the name of the file you want to convert. 
-- The second argument states the file (other .ali for use with A. Salis awesome MODELLER [1] software are also available)
-- Try running the script from the same folder where the .pdb is stored  
-
+- The # indicates the start of the command prompt. You don't need to write this. Just what comes after;)
+- The first bit calls the python3 interpreter. You will need python3 installed on your computer (see below). 
+- The second bit calls the programme to run, with the .py extension.
+- The third piece of the line, called an arguemnt in proper terminology, calls the file you want to convert. 
+- The second argument states the file type for output. The default is FASTA. (other .ali for use with A. Salis awesome MODELLER [1] software are also available)
+- Try running the script from the same folder where the .pdb is stored or direct to where the input file is with some forward slashes (ie /home/wherever/here/MyPDBS/4k3b.pdb)  
+- Try '# python3 test_pdbIIfasta.py -f' for some pointers if you forget.
+- HANDY TIP: for can use the tab key (the two backwards arrows) for autocomplete so you don't have to write the whole thing out.
+- ADVANCED USE: try calling the programme in a 'loop' from BASH or python for batch conversion jobs. More on this later.
 
 Requirements
 =============
