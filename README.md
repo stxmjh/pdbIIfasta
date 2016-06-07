@@ -23,16 +23,21 @@ See in the example below
 
 Example
 =======
-# python3 4k3b.pfb fasta
+# # python3 4k3b.pdb fasta
 
 Explanation
-- The first # indicates the start of the command prompt. You don't need to input this. Just everything that comes after;)
--  
+===========
+- The # indicates the start of the command prompt. You don't need to input this. Just everything that comes after;)
+- The first bit calls the python3 interpreter. You will need python3 installed on your computer. 
+- The second piece of the command (or 'argument' in computer lingo') is the name of the file you want to convert. 
+- The second argument states the file (other .ali for use with A. Salis awesome MODELLER [1] software are also available)
+- Try running the script from the same folder where the .pdb is stored  
 
 
 Requirements
 =============
-python3(!)
+You will need python3(!) and a terminal window to run pdbIIfasta eg Command Prompt (Windows), BASH (Linux), Terminal (Mac) etc
+https://www.python.org/downloads/
 
 Disclaimer
 ===========
@@ -43,7 +48,9 @@ We appreciate nice people who recognise others for their work but if you dont th
 WARNING!!!
 ==========
 !!!Currently pdbIIfasta doesn't work with structures 'fetched' and saved through pymol!!! Give us time...we're working on it.
- 
+
+
+[1] B. Webb, A. Sali. Comparative Protein Structure Modeling Using Modeller. Current Protocols in Bioinformatics, John Wiley & Sons, Inc., 5.6.1-5.6.32, 2014. 
 
 
 
