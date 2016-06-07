@@ -4,8 +4,7 @@
 *pdbIIfasta.py*
 ***************
 
-![alt tag](https://github.com/stxmjh/pdbIIfasta/pdbIIfastasnake.png)
-
+![alt tag](https://github.com/stxmjh/pdbIIfasta/blob/master/pdbIIfastasnake.png)
 Introduction
 =============
 pdbIIfasta.py is a simple, easy to use conversion tool for extracting the EXACT
