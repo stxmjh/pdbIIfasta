@@ -19,15 +19,16 @@ and can seriously impede the speed and accuarcy of bioinformatics studies.
 You need to know the EXACT sequence you are working with and this can be hard to determine sometimes from multiple sources of information. 
 The pdbIIfasta programme was written to overcome that problem. It tells you precisely what the sequence is for the structure you are working with. 
 
-Useage
+Usage
 =======
 pdbIIfasta is easy to use! It is a simple programme written in python that works with version 2.x of the language.
 It takes a .pdb as the input and puts out another file with the sequence in FASTA format...
 See below for an example of how to use.
 
 Example
-=======
-# # python test_pdbIIfasta.py 4k3b.pdb fasta
+===========
+
+$ python3 test_pdbIIfasta.py 4k3b.pdb fasta
 
 Explanation
 ===========
