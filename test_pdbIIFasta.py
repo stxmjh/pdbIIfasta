@@ -1,5 +1,5 @@
 #! /usr/bin/python
-#Copyright: Jedd Bellamy Carter (Univeristy of Nottingham/Spring 2016) 
+
 import argparse
 import re
 

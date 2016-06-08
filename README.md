@@ -8,7 +8,7 @@
 Introduction
 =============
 pdbIIfasta.py is a simple, easy to use conversion tool for extracting the EXACT
-sequence of PDB (.pdb) file as a FASTA (.fasta) file for general bioinformatics use.
+sequence of a Protein Data Bank or PDB (.pdb) file as a FASTA (.fasta) file for general bioinformatics use.
 
 Why pdbIIfasta?
 ===============
@@ -21,7 +21,7 @@ The pdbIIfasta programme was written to overcome that problem. It tells you prec
 
 Useage
 =======
-pdbIIfasta is easy to use! It is a simple programme written in python that works with version 3.x of the language.
+pdbIIfasta is easy to use! It is a simple programme written in python that works with version 2.x of the language.
 It takes a .pdb as the input and puts out another file with the sequence in FASTA format...
 See below for an example of how to use.
 
@@ -43,7 +43,8 @@ Explanation
 
 Requirements
 =============
-You will need python3(!) and a terminal window to run pdbIIfasta eg Command Prompt (Windows), BASH (Linux), Terminal (Mac) etc
+You will need python2(!) and a terminal window to run pdbIIfasta eg Command Prompt (Windows), BASH (Linux), Terminal (Mac) etc
+A version for use with python3 language is on its way!
 https://www.python.org/downloads/
 
 Disclaimer
