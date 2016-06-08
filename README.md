@@ -27,7 +27,7 @@ See below for an example of how to use.
 
 Example
 =======
-# # python3 test_pdbIIfasta.py 4k3b.pdb fasta
+# # python test_pdbIIfasta.py 4k3b.pdb fasta
 
 Explanation
 ===========
