@@ -17,7 +17,6 @@ The strucutre may be missing residues which have not been well resolved in the s
 and can seriously impede the speed and accuarcy of bioinformatics studies. 
 
 You need to know the EXACT sequence you are working with and this can be hard to determine sometimes from multiple sources of information. 
-The pdbIIfasta programme was written to overcome that problem. It tells you precisely what the sequence is for the structure you are working with. 
 
 Usage
 =======
@@ -28,11 +27,11 @@ See below for an example of how to use.
 Example
 ===========
 
-$ python3 test_pdbIIfasta.py 4k3b.pdb fasta
+$ python test_pdbIIfasta.py 4k3b.pdb fasta
 
 Explanation
 ===========
-- The # indicates the start of the command prompt. You don't need to write this. Just what comes after;)
+- The $ sign indicates the start of the command prompt. You don't need to write this. Just what comes after;)
 - The first bit calls the python3 interpreter. You will need python3 installed on your computer (see below). 
 - The second bit calls the programme to run, with the .py extension.
 - The third piece of the line, called an arguemnt in proper terminology, calls the file you want to convert. 
@@ -50,10 +49,10 @@ https://www.python.org/downloads/
 
 Disclaimer
 ===========
-Please note pdbIIfasta has currently only been tested on Linux operating systems (Ubuntu/OpenSUSE) so there's no guarantee it will work for you if you're using a Mac or Window OS. 
+Please note pdbIIfasta has currently only been tested on some Linux operating systems (Ubuntu/OpenSUSE) so there's no guarantee it will work for you if you're using a Mac or Window OS. 
 But fingers crossed, we hope it does. Give it a test and if doesn't work then just drop us an email and let us know why. You're free to use the code however you wish. 
 We appreciate nice people who recognise others for their work but if you dont then that's fine too! There are other pdb to fasta conversion tools out there too.
-pdbIIfasta was written by JB Carter and MJ Hardcastle (University of Nottingham, Biomembrane NMR, Spring 2016)
+pdbIIfasta was written by Jedd-Bellamy Carter and Matt Hardcastle (University of Nottingham, 2016)
 WARNING!!!
 ==========
 !!!Currently pdbIIfasta doesn't work with structures 'fetched' and saved through pymol!!! Give us time...we're working on it.
