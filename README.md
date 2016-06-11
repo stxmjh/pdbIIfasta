@@ -39,7 +39,7 @@ We appreciate nice people who recognise others for their work but if you dont th
 pdbIIfasta was written by Jedd-Bellamy-Carter and Matt Hardcastle (University of Nottingham, 2016)
 
 
-<a id='#1'>1</a> : B. Webb, A. Sali. Comparative Protein Structure Modeling Using Modeller. Current Protocols in Bioinformatics, John Wiley & Sons, Inc., 5.6.1-5.6.32, 2014. 
+<a name="1">1</a> : B. Webb, A. Sali. Comparative Protein Structure Modeling Using Modeller. Current Protocols in Bioinformatics, John Wiley & Sons, Inc., 5.6.1-5.6.32, 2014. 
 
 
 
