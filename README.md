@@ -8,12 +8,12 @@
 
 ## Introduction
 
-pdbIIfasta.py is a simple conversion tool that generates sequence information from recorded PDB data (i.e. missing residues are treated as gaps (-)). The sequence information is then written to file in either .fasta or .ali [^1] format for general bioinformatics use.
+pdbIIfasta.py is a simple conversion tool that generates sequence information from recorded PDB data (i.e. missing residues are treated as gaps (-)). The sequence information is then written to file in either .fasta or .ali [1](#1) format for general bioinformatics use.
 
 ## Why pdbIIfasta?
 
 FASTA files downloaded from the RCSB database to accompany a PDB file represent the ideal sequence, however this may not correspond to the PDB file as some residues do not resolve well from X-Ray crystallography or NMR. 
-In some cases a sequence that corresponding to the PDB resolved residues is desired such as when using MODELLER [^1], it is for those cases that this tool is designed.
+In some cases a sequence that corresponding to the PDB resolved residues is desired such as when using MODELLER [1](#1), it is for those cases that this tool is designed.
 
 
 ## Usage
@@ -39,7 +39,7 @@ We appreciate nice people who recognise others for their work but if you dont th
 pdbIIfasta was written by Jedd-Bellamy-Carter and Matt Hardcastle (University of Nottingham, 2016)
 
 
-[^1]: B. Webb, A. Sali. Comparative Protein Structure Modeling Using Modeller. Current Protocols in Bioinformatics, John Wiley & Sons, Inc., 5.6.1-5.6.32, 2014. 
+<a id='#1'>1</a> : B. Webb, A. Sali. Comparative Protein Structure Modeling Using Modeller. Current Protocols in Bioinformatics, John Wiley & Sons, Inc., 5.6.1-5.6.32, 2014. 
 
 
 
