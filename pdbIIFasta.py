@@ -1,4 +1,5 @@
 #! /usr/bin/python
+# Copyright (c) 2016  Jedd Bellamy-Carter
 
 import argparse
 import re
