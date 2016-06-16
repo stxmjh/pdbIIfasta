@@ -8,7 +8,7 @@ import re
 # Dictionary containing reference for 3-letter code to 1-letter code
 residues    = {'ALA':'A','ARG':'R','ASN':'N','ASP':'D','CYS':'C','GLU':'E',
                'GLN':'Q','GLY':'G','HIS':'H','ILE':'I','LEU':'L','LYS':'K',
-               'MET':'M','PHE':'F','PRO':'P','SER':'S','THR':'T','TRP':'W',
+               'MSE':'M','MET':'M','PHE':'F','PRO':'P','SER':'S','THR':'T','TRP':'W',
                'TYR':'Y','VAL':'V','---':'-'}
 
 def pdbToSequence(_file):
@@ -16,7 +16,7 @@ def pdbToSequence(_file):
     _header = _file[:-4]
     with open(_file, 'r') as inFile:
         for _line in inFile:
-            if re.search('^ATOM.*CA',_line):
+            if re.search('^ATOM.*CA|^HETATM.*CA',_line):
                 _entry = _line.split()
                 # Correct for lack of whitespace between chain and residue
                 if len(_entry[4]) > 1:
