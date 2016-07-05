@@ -1,5 +1,5 @@
 #! /usr/bin/python
-# Copyright (c) 2016  Jedd Bellamy-Carter and Matt Hardcastle
+# Copyright (c) 2016  Jedd Bellamy-Carter and Matt Hardcastle (University of Nottingham)
 # Author: JBC
 
 import argparse
